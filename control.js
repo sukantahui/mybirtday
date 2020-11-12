@@ -11,7 +11,7 @@ $(function(){
         event.preventDefault();
         var request=$.ajax({
             type:'get',
-            url: "wish.php",
+            url: "wish.html",
             data: {},//end of data
             beforeSend:function(){},
             success: function(data, textStatus, xhr) {
@@ -23,7 +23,7 @@ $(function(){
         event.preventDefault();
         var request=$.ajax({
             type:'get',
-            url: "letter.php",
+            url: "letter.html",
             data: {},//end of data
             beforeSend:function(){},
             success: function(data, textStatus, xhr) {
